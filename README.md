@@ -6,9 +6,9 @@ Project Overview
 Ever dreamt of having your own remote-controlled car that responds to your commands effortlessly? Look no further! This project brings to life a seamless interaction between two main components: the Raspberry Pi, aptly named the 'car', and the ESP32, the mastermind controller dictating the car's every move.
 Repository Structure
 
-    /ESP: This directory houses the brains of our operation—the ESP32 controller. With its intelligence and precision, it takes charge of commanding the motors, ensuring smooth and responsive control.
+    ESP: This directory houses the brains of our operation—the ESP32 controller. With its intelligence and precision, it takes charge of commanding the motors, ensuring smooth and responsive control.
 
-    /RaspberryPi: Behold, the heart and soul of the car! The Raspberry Pi directory encompasses the 'car' itself. Watch as it translates the ESP32's commands into mesmerizing maneuvers.
+    RaspberryPi: Behold, the heart and soul of the car! The Raspberry Pi directory encompasses the 'car' itself. Watch as it translates the ESP32's commands into mesmerizing maneuvers.
 
 Car Modes
 
