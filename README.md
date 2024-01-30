@@ -20,13 +20,13 @@ cd RC-Car
 ```
 
 
-Environment Setup
-Setting Up Environment Variables
+Environment Setup. 
+
 For Linux and macOS Users:
 
-    Open your terminal.
+1. Open your terminal.
 
-    Edit your ~/.bashrc file (Linux) or ~/.bash_profile file (macOS) using a text editor, e.g., nano:
+2. Edit your ~/.bashrc file (Linux) or ~/.bash_profile file (macOS) using a text editor, e.g., nano:
 
  
 ```bash
@@ -41,11 +41,11 @@ export WIFI_SSID="your_wifi_ssid"
 export WIFI_PASSWORD="your_wifi_password"
 ```
 
-Replace your_wifi_ssid and your_wifi_password with your actual WiFi credentials.
+1. Replace your_wifi_ssid and your_wifi_password with your actual WiFi credentials.
 
-Save and exit the editor (Ctrl+O, Enter, Ctrl+X for nano).
+2. Save and exit the editor (Ctrl+O, Enter, Ctrl+X for nano).
 
-Reload the file to apply the changes:
+3. Reload or `source` to your file:
 
 ```bash
 source ~/.bashrc  # For Linux
