@@ -1,26 +1,60 @@
-Jesus Take the Wheel - Remote Controlled Car Project
+# RC Car Project
 
-Welcome to the repository of the Jesus Take the Wheel team, where innovation meets control! 🚗✨
-Project Overview
+## Overview
+Welcome to the RC Car Project! This project aims to build a remote-controlled car using ESP32 and Raspberry Pi, incorporating path-finding techniques. It's an exciting venture for hobbyists and engineers alike, keen on exploring electronics and programming in a hands-on manner.
 
-Ever dreamt of having your own remote-controlled car that responds to your commands effortlessly? Look no further! This project brings to life a seamless interaction between two main components: the Raspberry Pi, aptly named the 'car', and the ESP32, the mastermind controller dictating the car's every move.
-Repository Structure
+## Prerequisites
+Before you begin, ensure you have the following:
+- A Raspberry Pi
+- An ESP32 module
+- Basic knowledge of electronics and programming
 
-    ESP: This directory houses the brains of our operation—the ESP32 controller. With its intelligence and precision, it takes charge of commanding the motors, ensuring smooth and responsive control.
+## Installation
 
-    RaspberryPi: Behold, the heart and soul of the car! The Raspberry Pi directory encompasses the 'car' itself. Watch as it translates the ESP32's commands into mesmerizing maneuvers.
+### Clone the Repository
+Start by cloning the project repository:
 
-Car Modes
+```bash
+git clone https://github.com/MarikTik/RC-Car.git
+cd RC-Car
 
-The extraordinary capabilities of our remote-controlled car don't stop there. Experience the thrill in two exciting modes:
 
-    Remote Control Mode: Grab the virtual wheel and take charge! Direct the car's movements with precision using the ESP32 controller.
+Environment Setup
+Setting Up Environment Variables
+For Linux and macOS Users:
 
-    Autonomous Mode: Sit back, relax, and let the car take control. Our sophisticated algorithms enable the car to navigate autonomously, making decisions on the fly for an exhilarating ride.
+    Open your terminal.
 
-Team Members
-     Mark
-     Jenna
-     Jason
-     Gio
-    
+    Edit your ~/.bashrc file (Linux) or ~/.bash_profile file (macOS) using a text editor, e.g., nano:
+
+    bash
+
+nano ~/.bashrc  # For Linux
+nano ~/.bash_profile  # For macOS
+
+Add the following lines at the end of the file:
+
+bash
+
+export WIFI_SSID="your_wifi_ssid"
+export WIFI_PASSWORD="your_wifi_password"
+
+Replace your_wifi_ssid and your_wifi_password with your actual WiFi credentials.
+
+Save and exit the editor (Ctrl+O, Enter, Ctrl+X for nano).
+
+Reload the file to apply the changes:
+
+bash
+
+    source ~/.bashrc  # For Linux
+    source ~/.bash_profile  # For macOS
+
+For Windows Users:
+
+    Open the Start menu and search for "Environment Variables".
+    Click on "Edit the system environment variables".
+    In the System Properties dialog, click on "Environment Variables".
+    Under "User variables", click "New".
+    Add WIFI_SSID as the variable name and your WiFi SSID as the value.
+    Click "OK" and repeat the process to add WIFI_PASSWORD with your WiFi password as its value.
