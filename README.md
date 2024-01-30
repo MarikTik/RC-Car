@@ -17,6 +17,7 @@ Start by cloning the project repository:
 ```bash
 git clone https://github.com/MarikTik/RC-Car.git
 cd RC-Car
+```
 
 
 Environment Setup
@@ -27,17 +28,18 @@ For Linux and macOS Users:
 
     Edit your ~/.bashrc file (Linux) or ~/.bash_profile file (macOS) using a text editor, e.g., nano:
 
-    bash
-
+ 
+```bash
 nano ~/.bashrc  # For Linux
 nano ~/.bash_profile  # For macOS
+```
 
 Add the following lines at the end of the file:
 
-bash
-
+```bash
 export WIFI_SSID="your_wifi_ssid"
 export WIFI_PASSWORD="your_wifi_password"
+```
 
 Replace your_wifi_ssid and your_wifi_password with your actual WiFi credentials.
 
@@ -45,10 +47,10 @@ Save and exit the editor (Ctrl+O, Enter, Ctrl+X for nano).
 
 Reload the file to apply the changes:
 
-bash
-
-    source ~/.bashrc  # For Linux
-    source ~/.bash_profile  # For macOS
+```bash
+source ~/.bashrc  # For Linux
+source ~/.bash_profile  # For macOS
+```
 
 For Windows Users:
 
