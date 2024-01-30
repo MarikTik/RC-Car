@@ -19,7 +19,7 @@ The extraordinary capabilities of our remote-controlled car don't stop there. Ex
     Autonomous Mode: Sit back, relax, and let the car take control. Our sophisticated algorithms enable the car to navigate autonomously, making decisions on the fly for an exhilarating ride.
 
 Team Members
-     Mark - The designer
+     Mark
      Jenna
      Jason
      Gio
